@@ -1,0 +1,17 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+pydantic[email]
+pydantic-settings
+python-jose[cryptography]
+passlib[bcrypt]
+python-multipart
+numpy
+pandas
+scikit-learn
+torch
+torchvision
+Pillow
+requests
+httpx
+google-generativeai

@@ -1,0 +1,103 @@
+{
+  "NAV": {
+    "HOME": "Home",
+    "CROP": "Crop Recommendation",
+    "FERTILIZER": "Fertilizer",
+    "DISEASE": "Disease Detection",
+    "WEATHER": "Weather",
+    "LOGIN": "Login"
+  },
+  "HOME": {
+    "HERO_TITLE": "Smart Agriculture at Your Fingertips",
+    "HERO_SUBTITLE": "AI-powered crop recommendations, fertilizer suggestions, plant disease detection, and real-time weather insights for modern farmers.",
+    "GET_STARTED": "Get Started",
+    "CREATE_ACCOUNT": "Create Account",
+    "FEATURES_TITLE": "Powerful Features",
+    "FEATURES_SUBTITLE": "Everything you need to make data-driven farming decisions",
+    "FEAT_CROP_TITLE": "Crop Recommendation",
+    "FEAT_CROP_DESC": "Get the best crop suggestion based on soil nutrients and weather conditions",
+    "FEAT_FERT_TITLE": "Fertilizer Advice",
+    "FEAT_FERT_DESC": "Know exactly what fertilizer your soil needs for optimal crop growth",
+    "FEAT_DISEASE_TITLE": "Disease Detection",
+    "FEAT_DISEASE_DESC": "Upload a leaf photo and instantly identify plant diseases with AI",
+    "FEAT_WEATHER_TITLE": "Weather Dashboard",
+    "FEAT_WEATHER_DESC": "Real-time weather data and 5-day forecasts for your farming area",
+    "HOW_TITLE": "How It Works",
+    "STEP1_TITLE": "Enter Your Data",
+    "STEP1_DESC": "Provide soil parameters, upload images, or enter your location",
+    "STEP2_TITLE": "AI Analysis",
+    "STEP2_DESC": "Our ML models analyze your data using trained algorithms",
+    "STEP3_TITLE": "Get Results",
+    "STEP3_DESC": "Receive actionable recommendations and insights instantly",
+    "CTA_TITLE": "Ready to Transform Your Farming?",
+    "CTA_SUBTITLE": "Join thousands of farmers using AI to improve their yields",
+    "CTA_BUTTON": "Sign Up Free"
+  },
+  "AUTH": {
+    "LOGIN_TITLE": "Welcome Back",
+    "LOGIN_SUBTITLE": "Sign in to access your dashboard",
+    "SIGNUP_TITLE": "Create Account",
+    "SIGNUP_SUBTITLE": "Start your smart farming journey",
+    "EMAIL": "Email",
+    "PASSWORD": "Password",
+    "NAME": "Full Name",
+    "LOGIN_BUTTON": "Sign In",
+    "SIGNUP_BUTTON": "Create Account",
+    "NO_ACCOUNT": "Don't have an account?",
+    "SIGNUP_LINK": "Sign Up",
+    "HAS_ACCOUNT": "Already have an account?",
+    "LOGIN_LINK": "Sign In"
+  },
+  "CROP": {
+    "TITLE": "Crop Recommendation",
+    "SUBTITLE": "Find the best crop for your soil and weather conditions",
+    "INPUT_TITLE": "Soil & Location Parameters",
+    "NITROGEN": "Nitrogen (N)",
+    "PHOSPHOROUS": "Phosphorous (P)",
+    "POTASSIUM": "Potassium (K)",
+    "PH": "pH Level",
+    "RAINFALL": "Rainfall (mm)",
+    "CITY": "City",
+    "PREDICT": "Get Recommendation",
+    "RESULT_TITLE": "Recommended Crop",
+    "PLACEHOLDER": "Enter your soil parameters and city to get a crop recommendation"
+  },
+  "FERT": {
+    "TITLE": "Fertilizer Recommendation",
+    "SUBTITLE": "Get the right fertilizer balance for your crop",
+    "CROP": "Select Crop",
+    "PREDICT": "Get Recommendation",
+    "RESULT_TITLE": "Recommendation",
+    "SUGGESTIONS": "Suggestions",
+    "PLACEHOLDER": "Select a crop and enter soil NPK values to get a recommendation"
+  },
+  "DISEASE": {
+    "TITLE": "Plant Disease Detection",
+    "SUBTITLE": "Upload a leaf image to identify diseases instantly",
+    "UPLOAD_TEXT": "Drag & drop an image or click to browse",
+    "UPLOAD_HINT": "Supports JPG, PNG up to 10MB",
+    "PREDICT": "Detect Disease",
+    "CAUSE": "Cause",
+    "PREVENTION": "Prevention & Cure",
+    "PLACEHOLDER": "Upload a plant leaf image to detect diseases"
+  },
+  "WEATHER": {
+    "TITLE": "Weather Dashboard",
+    "SUBTITLE": "Check current weather and forecasts for your area",
+    "CITY": "Enter City Name",
+    "SEARCH": "Search"
+  },
+  "DASH": {
+    "TITLE": "Dashboard",
+    "WELCOME": "Welcome back",
+    "DISTRIBUTION": "Prediction Distribution",
+    "QUICK_ACTIONS": "Quick Actions",
+    "RECENT": "Recent Predictions",
+    "NO_PREDICTIONS": "No predictions yet. Try our tools to get started!"
+  },
+  "FOOTER": {
+    "TAGLINE": "AI-powered agricultural decision support for modern Indian farmers",
+    "FEATURES": "Features",
+    "TECH": "Built With"
+  }
+}
