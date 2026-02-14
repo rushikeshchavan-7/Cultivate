@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  apiUrl: 'https://cultivate365-api.onrender.com/api',
+  apiUrl: 'https://therushi31-cultivate365-api.hf.space/api',
 };
