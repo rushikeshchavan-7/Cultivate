@@ -9,8 +9,6 @@ python-multipart
 numpy
 pandas
 scikit-learn
-torch
-torchvision
 Pillow
 requests
 httpx

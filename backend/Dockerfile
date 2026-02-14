@@ -7,17 +7,27 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     gcc \
     && rm -rf /var/lib/apt/lists/*
 
+# Create a non-root user (required by HF Spaces)
+RUN useradd -m -u 1000 user
+ENV HOME=/home/user \
+    PATH=/home/user/.local/bin:$PATH
+
 # Copy requirements first for better caching
 COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+
+# Install CPU-only PyTorch first (much smaller), then the rest
+RUN pip install --no-cache-dir torch torchvision --index-url https://download.pytorch.org/whl/cpu && \
+    pip install --no-cache-dir -r requirements.txt
 
 # Copy application code
 COPY . .
 
-# Copy ML models and data
-COPY app/ml_models/ app/ml_models/
-COPY app/data/ app/data/
+# Make sure the database directory is writable
+RUN chown -R user:user /app
 
-EXPOSE 8000
+# Switch to non-root user
+USER user
 
-CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
+EXPOSE 7860
+
+CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "7860"]

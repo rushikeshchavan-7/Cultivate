@@ -6,7 +6,7 @@ class Settings(BaseSettings):
     ALGORITHM: str = "HS256"
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 30
     REFRESH_TOKEN_EXPIRE_DAYS: int = 7
-    DATABASE_URL: str = "sqlite:///./cultivate365.db"
+    DATABASE_URL: str = "sqlite:////tmp/cultivate365.db"
     WEATHER_API_KEY: str = "9d7cde1f6d07ec55650544be1631307e"
     GEMINI_API_KEY: str = ""
 
